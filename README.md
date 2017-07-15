@@ -36,7 +36,7 @@ The basic workflow for creating a custom IBDesignable looks like this.
 1.  start with stubbing your UIView subclass
 
 ```swift
-import XibView
+import UIXibView
 
 @IBDesignable class DummyView: XibView {
 
@@ -77,7 +77,7 @@ subclass name. In our example case the file would be called `DummyView.xib`
 6.  Hookup IBOutlets, IBActions, write IBInspectables, etc.
 
 ```swift
-import XibView
+import UIXibView
 
 /// an example of the XibView subclassing pattern
 @IBDesignable class DummyView: XibView {
