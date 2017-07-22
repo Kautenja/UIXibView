@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		099C19F21F19CE7200DBA7EE /* DummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099C19F01F19CE4000DBA7EE /* DummyView.swift */; };
-		099C19F31F19CE8200DBA7EE /* DummyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099C19EF1F19CE3E00DBA7EE /* DummyView.xib */; };
+		0936E7E71F23284600EFDD66 /* AnotherDummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0936E7E61F23284600EFDD66 /* AnotherDummyView.swift */; };
+		0936E7E91F23285A00EFDD66 /* ArbitraryName.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0936E7E81F23285A00EFDD66 /* ArbitraryName.xib */; };
+		0936E7ED1F2328B100EFDD66 /* UIXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0936E7EC1F23289900EFDD66 /* UIXibView.swift */; };
+		0936E7F11F23291300EFDD66 /* DummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0936E7F01F2328FA00EFDD66 /* DummyView.swift */; };
+		0936E7F21F23291C00EFDD66 /* DummyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0936E7EF1F2328F900EFDD66 /* DummyView.xib */; };
 		099F6A801F19C94C00E2EEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099F6A7F1F19C94C00E2EEFF /* AppDelegate.swift */; };
 		099F6A821F19C94C00E2EEFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099F6A811F19C94C00E2EEFF /* ViewController.swift */; };
 		099F6A851F19C94C00E2EEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099F6A831F19C94C00E2EEFF /* Main.storyboard */; };
@@ -17,7 +20,6 @@
 		099F6AA21F19CA4200E2EEFF /* UIXibView.h in Headers */ = {isa = PBXBuildFile; fileRef = 099F6AA01F19CA4200E2EEFF /* UIXibView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		099F6AA51F19CA4200E2EEFF /* UIXibView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099F6A9E1F19CA4200E2EEFF /* UIXibView.framework */; };
 		099F6AA61F19CA4200E2EEFF /* UIXibView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 099F6A9E1F19CA4200E2EEFF /* UIXibView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		09C8CA291F19CF7A00E28FC6 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099C19F11F19CE4600DBA7EE /* XibView.swift */; };
 		09C8CA2C1F19CF8C00E28FC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C8CA2B1F19CF8500E28FC6 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,10 +48,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0936E7E61F23284600EFDD66 /* AnotherDummyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherDummyView.swift; sourceTree = "<group>"; };
+		0936E7E81F23285A00EFDD66 /* ArbitraryName.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArbitraryName.xib; sourceTree = "<group>"; };
+		0936E7EC1F23289900EFDD66 /* UIXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIXibView.swift; sourceTree = "<group>"; };
+		0936E7EF1F2328F900EFDD66 /* DummyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DummyView.xib; path = DummyView/DummyView.xib; sourceTree = "<group>"; };
+		0936E7F01F2328FA00EFDD66 /* DummyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DummyView.swift; path = DummyView/DummyView.swift; sourceTree = "<group>"; };
 		099C19EE1F19CCAF00DBA7EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		099C19EF1F19CE3E00DBA7EE /* DummyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DummyView.xib; sourceTree = "<group>"; };
-		099C19F01F19CE4000DBA7EE /* DummyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyView.swift; sourceTree = "<group>"; };
-		099C19F11F19CE4600DBA7EE /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		099F6A7C1F19C94C00E2EEFF /* XibView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XibView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099F6A7F1F19C94C00E2EEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		099F6A811F19C94C00E2EEFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0936E7EE1F2328C200EFDD66 /* DummyViewDifferentFilename */ = {
+			isa = PBXGroup;
+			children = (
+				0936E7E61F23284600EFDD66 /* AnotherDummyView.swift */,
+				0936E7E81F23285A00EFDD66 /* ArbitraryName.xib */,
+			);
+			path = DummyViewDifferentFilename;
+			sourceTree = "<group>";
+		};
 		099F6A731F19C94C00E2EEFF = {
 			isa = PBXGroup;
 			children = (
@@ -113,24 +126,16 @@
 				099F6A881F19C94C00E2EEFF /* LaunchScreen.storyboard */,
 				099F6A8B1F19C94C00E2EEFF /* Info.plist */,
 				099F6A941F19C9A600E2EEFF /* DummyView */,
-				099F6A911F19C96F00E2EEFF /* XibView */,
+				0936E7EE1F2328C200EFDD66 /* DummyViewDifferentFilename */,
 			);
 			path = XibView;
-			sourceTree = "<group>";
-		};
-		099F6A911F19C96F00E2EEFF /* XibView */ = {
-			isa = PBXGroup;
-			children = (
-				099C19F11F19CE4600DBA7EE /* XibView.swift */,
-			);
-			name = XibView;
 			sourceTree = "<group>";
 		};
 		099F6A941F19C9A600E2EEFF /* DummyView */ = {
 			isa = PBXGroup;
 			children = (
-				099C19F01F19CE4000DBA7EE /* DummyView.swift */,
-				099C19EF1F19CE3E00DBA7EE /* DummyView.xib */,
+				0936E7F01F2328FA00EFDD66 /* DummyView.swift */,
+				0936E7EF1F2328F900EFDD66 /* DummyView.xib */,
 			);
 			name = DummyView;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			children = (
 				099F6AA01F19CA4200E2EEFF /* UIXibView.h */,
 				099F6AA11F19CA4200E2EEFF /* Info.plist */,
+				0936E7EC1F23289900EFDD66 /* UIXibView.swift */,
 			);
 			path = UIXibView;
 			sourceTree = "<group>";
@@ -218,6 +224,7 @@
 					};
 					099F6A9D1F19CA4200E2EEFF = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -245,7 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				099C19F31F19CE8200DBA7EE /* DummyView.xib in Resources */,
+				0936E7F21F23291C00EFDD66 /* DummyView.xib in Resources */,
+				0936E7E91F23285A00EFDD66 /* ArbitraryName.xib in Resources */,
 				099F6A8A1F19C94C00E2EEFF /* LaunchScreen.storyboard in Resources */,
 				099F6A871F19C94C00E2EEFF /* Assets.xcassets in Resources */,
 				099F6A851F19C94C00E2EEFF /* Main.storyboard in Resources */,
@@ -266,7 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				099C19F21F19CE7200DBA7EE /* DummyView.swift in Sources */,
+				0936E7F11F23291300EFDD66 /* DummyView.swift in Sources */,
+				0936E7E71F23284600EFDD66 /* AnotherDummyView.swift in Sources */,
 				099F6A821F19C94C00E2EEFF /* ViewController.swift in Sources */,
 				099F6A801F19C94C00E2EEFF /* AppDelegate.swift in Sources */,
 			);
@@ -276,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C8CA291F19CF7A00E28FC6 /* XibView.swift in Sources */,
+				0936E7ED1F2328B100EFDD66 /* UIXibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +457,7 @@
 		099F6AA81F19CA4200E2EEFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -462,6 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cksoftware.3Ring.UIXibView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -472,6 +483,7 @@
 		099F6AA91F19CA4200E2EEFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

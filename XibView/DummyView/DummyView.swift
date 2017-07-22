@@ -10,7 +10,7 @@ import UIKit
 import UIXibView
 
 /// an example of the XibView subclassing pattern
-@IBDesignable class DummyView: XibView {
+@IBDesignable class DummyView: UIXibView {
     
     /// some segmented control
     @IBOutlet weak var segmentedControl: UISegmentedControl!
