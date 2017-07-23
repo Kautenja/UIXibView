@@ -1,15 +1,18 @@
-# XibView
+# UIXibView
 
 ![Icon](./icon.png)
+
+[![swift-badge][]][swift-link]
+[![carthage-badge][]][carthage-link]
+
+[swift-badge]: https://img.shields.io/badge/swift-4.0-orange.svg
+[swift-link]: https://swift.org/
+[carthage-badge]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat
+[carthage-link]: https://github.com/Carthage/Carthage
 
 This framework aims to simplify the process of building custom IBDesignables by
 reducing boilerplate and hiding the ugly interface builder details from what
 should be concise, and reusable subclasses of UIView.
-
-[![CI Status](http://img.shields.io/travis/kautenja/XibView.svg?style=flat)](https://travis-ci.org/kautenja/XibView)
-[![Version](https://img.shields.io/cocoapods/v/XibView.svg?style=flat)](http://cocoapods.org/pods/XibView)
-[![License](https://img.shields.io/cocoapods/l/XibView.svg?style=flat)](http://cocoapods.org/pods/XibView)
-[![Platform](https://img.shields.io/cocoapods/p/XibView.svg?style=flat)](http://cocoapods.org/pods/XibView)
 
 ## Example
 
