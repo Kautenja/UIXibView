@@ -41,7 +41,7 @@ The basic workflow for creating a custom IBDesignable looks like this.
 ```swift
 import UIXibView
 
-@IBDesignable class DummyView: XibView {
+@IBDesignable class DummyView: UIXibView {
 
 }
 ```
@@ -83,7 +83,7 @@ subclass name. In our example case the file would be called `DummyView.xib`
 import UIXibView
 
 /// an example of the XibView subclassing pattern
-@IBDesignable class DummyView: XibView {
+@IBDesignable class DummyView: UIXibView {
 
     /// some segmented control
     @IBOutlet weak var segmentedControl: UISegmentedControl!
@@ -121,4 +121,6 @@ kautenja, kautencreations@gmail.com
 
 ## License
 
-XibView is available under the MIT license. See the LICENSE file for more info.
+UIXibView is available under the MIT license. See the [LICENSE][] file for more info.
+
+[LICENSE]: ./LICENSE
