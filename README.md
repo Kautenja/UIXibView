@@ -1,6 +1,6 @@
 # UIXibView
 
-![Icon](./icon.png)
+![Icon](./img/icon.png)
 
 [![swift-badge][]][swift-link]
 [![carthage-badge][]][carthage-link]
